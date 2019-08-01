@@ -4,29 +4,53 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>Psychic Game</title>
+            <title>Word Guess Game</title>
 
-            <!-- Bootstrap-->
+            <!-- Bootstrap CSS-->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            -->
-            <!-- <script src="./assets/javascript/game.js"></script> -->
+           
+            <!-- Local CSS-->
+            <link rel="stylesheet" type="text/css" href="/assets/css/style.css">           
+            
+            <script type="text/javascript" src="./assets/javascript/game.js"></script> 
         </head>
         <body>
          
-        
+                <p>Welcome to the Word Guess Game</p>
+            
+                <!-- <div id="myDIV">
+                        <p>To play, guess the letters in the name of a famous musical artist</p>
+                </div>
+
+
+                <button onclick="myFunction()">Try it</button> -->
+
+
+                <span id="demo">To play, guess the letters in the name of a famous musical artist</span>
+
+                <button type="button" onclick="displayPhrase()">Click to begin</button>
+                
+
         
         
         <!-- 
         
-            alert the uses to the rules of the game
-        
-        // the computer chooses a word from the array
-        //         the number of letter spaces appear on the screen
-        
-        var choseWord = function() {  
-        }
+            show the user the rules of the game
 
-        //     { the user presses a letter
+            Provide button to start game
+
+            declare artist name variables
+
+            on click, the software hides the rules and displays
+
+            wins, losses, guesses remaining, letters correctuly guessed in the proper string position, and letters clicked
+
+        // the software chooses a word from the array
+        //         the number of letter spaces appear on the screen
+
+        The software breaks the word into individual charecters
+        
+        the user presses a letter
         //         the program checks to see if it's in the word the software chose
         
         //             If
